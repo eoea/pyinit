@@ -20,7 +20,7 @@ lint: type_check
 
 clean:
 	rm -rf $(cached_dir)
-	rm -rf .mypy_cache)
+	rm -rf .mypy_cache
 
 run: clear
 	python3 $(file)
